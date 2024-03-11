@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 from datetime import datetime
 from typing import Any
 
+
 import pandas as pd
 
 
@@ -19,16 +20,18 @@ class Regel(ABC):
 
 
 class StelselGroep(ABC):
-    def __init__(self, peildatum: str, datamodel, datum_regel_mapping) -> None:
+    def __init__(
+        self, peildatum: str, datamodel: dict, datum_regel_mapping: dict
+    ) -> None:
         self.peildatum = datetime.strptime(peildatum, "%Y-%m-%d").date()
         self.datum_regel_mapping = datum_regel_mapping
         self.datamodel = datamodel
         self.punten = self.bereken(datamodel)
 
     def geldige_regels(self) -> list:
-        for datum, regel in sorted(self.datum_regel_mapping.items(), reverse=True):
+        for datum, regels in sorted(self.datum_regel_mapping.items(), reverse=True):
             if self.peildatum >= datetime.strptime(datum, "%Y-%m-%d").date():
-                return regel
+                return regels
         return []
 
     def bereken(self, datamodel: dict) -> int:
@@ -43,7 +46,7 @@ class EnergiePrestatie(Regel):
     print("LOADING ref data")
     REF_DATA = pd.read_csv("./referentie_data/oppervlakte.csv")
 
-    def bereken(datamodel) -> int:
+    def bereken(datamodel: dict) -> int:
         print(EnergiePrestatie.REF_DATA)
         return 10
 
@@ -64,29 +67,14 @@ class OppervlakteVanVertrekken(StelselGroep):
         "2000-01-01": [EenPuntPerM2Oppervlakte],
     }
 
-    def __init__(self, peildatum, datamodel) -> None:
+    def __init__(self, peildatum: str, datamodel: dict) -> None:
         super().__init__(peildatum, datamodel, self.DATUM_REGEL_MAPPING)
 
 
 datamodel = {"oppervlakte": 100, "label": "A"}
 
 
-def een():
-    op = OppervlakteVanVertrekken("2025-01-01", datamodel)
-    print(op)
-
-
-def twee():
-    op = OppervlakteVanVertrekken("2025-01-01", datamodel)
-    print(op)
-
-
-# op2 = OppervlakteVanVertrekken("2000-01-10", datamodel)
-# print(op2)
-# regel = EnergiePrestatie
-
-een()
-een()
-een()
-twee()
-twee()
+op = OppervlakteVanVertrekken("2025-01-01", datamodel)
+print(op)
+op = OppervlakteVanVertrekken("2025-01-01", datamodel)
+print(op)

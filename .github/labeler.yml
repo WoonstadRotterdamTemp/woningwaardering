@@ -4,6 +4,7 @@ documentation:
       - any-glob-to-any-file:
           - docs/**
           - "**/*.md"
+  - head-branch: ["^docs", "docs"]
 enhancement:
   - head-branch: ["^feature", "feature"]
 bug:

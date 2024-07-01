@@ -1,0 +1,494 @@
+{
+  "id": "23109000031",
+  "bouwjaar": 1922,
+  "klimaatbeheersingsoort": {
+    "code": "IND",
+    "naam": "Individueel"
+  },
+  "adres": {
+    "straatnaam": "Justus van Effenstraat",
+    "huisnummer": "122",
+    "huisnummer_toevoeging": "",
+    "postcode": "3027TM",
+    "woonplaats": {
+      "naam": "ROTTERDAM"
+    }
+  },
+  "woningtype": {
+    "code": "EGW",
+    "naam": "Eengezinswoning"
+  },
+  "energieprestaties": [
+    {
+      "soort": {
+        "code": "EI",
+        "naam": "Energie-index"
+      },
+      "status": {
+        "code": "DEF",
+        "naam": "Definitief"
+      },
+      "begindatum": "2015-05-21",
+      "einddatum": "2025-05-21",
+      "registratiedatum": "2017-04-06T15:57:35.057000+02:00",
+      "label": {
+        "code": "B",
+        "naam": "B"
+      },
+      "waarde": "1.27"
+    }
+  ],
+  "gebouw": {
+    "id": "23109",
+    "naam": "VVE Justus van Effen",
+    "panden": [
+      {
+        "bag": {
+          "id": "0599100000318777",
+          "bagIdentificatie": "0599100000318777"
+        }
+      }
+    ]
+  },
+  "adresseerbaarObjectBasisregistratie": {
+    "id": "0599010000318897",
+    "bagIdentificatie": "0599010000318897"
+  },
+  "wozEenheden": [
+    {
+      "waardepeildatum": "2023-01-01",
+      "vastgesteldeWaarde": 237000
+    }
+  ],
+  "monumenten": [
+    {
+      "code": "RIJ",
+      "naam": "Rijksmonument"
+    }
+  ],
+  "ruimten": [
+    {
+      "id": "Space_74227409",
+      "soort": {
+        "code": "OVR",
+        "naam": "Overige ruimtes"
+      },
+      "detailSoort": {
+        "code": "SCH",
+        "naam": "Schacht"
+      },
+      "naam": "Schacht",
+      "inhoud": 1.31204,
+      "oppervlakte": 0.49325,
+      "verwarmd": false,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "02",
+        "omschrijving": "tweede verdieping"
+      }
+    },
+    {
+      "id": "Space_74227466",
+      "soort": {
+        "code": "OVR",
+        "naam": "Overige ruimtes"
+      },
+      "detailSoort": {
+        "code": "MET",
+        "naam": "Meterruimte"
+      },
+      "naam": "Meterruimte",
+      "inhoud": 0.632016,
+      "oppervlakte": 0.2376,
+      "verwarmd": false,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "02",
+        "omschrijving": "tweede verdieping"
+      }
+    },
+    {
+      "id": "Space_74227558",
+      "soort": {
+        "code": "OVR",
+        "naam": "Overige ruimtes"
+      },
+      "detailSoort": {
+        "code": "ENT",
+        "naam": "Entree"
+      },
+      "naam": "Entree",
+      "inhoud": 22.2518,
+      "oppervlakte": 8.36533,
+      "verwarmd": true,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "02",
+        "omschrijving": "tweede verdieping"
+      }
+    },
+    {
+      "id": "Space_74227663",
+      "soort": {
+        "code": "OVR",
+        "naam": "Overige ruimtes"
+      },
+      "detailSoort": {
+        "code": "TOI",
+        "naam": "Toiletruimte"
+      },
+      "naam": "Toiletruimte",
+      "inhoud": 2.75842,
+      "oppervlakte": 1.037,
+      "verwarmd": true,
+      "bouwkundigeElementen": [
+        {
+          "id": "Closetcombinatie_120545798",
+          "id_bimmodel": "3YEo1INuzC2BEoDDa0V2nj",
+          "naam": "Closetcombinatie",
+          "soort": {
+            "code": "SAN",
+            "naam": "Sanitaire voorziening"
+          },
+          "detailSoort": {
+            "code": "CLO",
+            "naam": "Closetcombinatie (Toilet)"
+          },
+          "extraAttributen": {
+            "ifcSoort": "IfcSanitaryTerminal"
+          }
+        },
+        {
+          "id": "Aanrecht_120545799",
+          "id_bimmodel": "3YEo1INuzC2BEoDDa0V2mJ",
+          "naam": "Aanrecht",
+          "soort": {
+            "code": "KEU",
+            "naam": "Keuken voorziening"
+          },
+          "detailSoort": {
+            "code": "AAN",
+            "naam": "Aanrecht"
+          },
+          "extraAttributen": {
+            "ifcSoort": "IfcFurniture"
+          }
+        }
+      ],
+      "bouwlaag": {
+        "nummer": "02",
+        "omschrijving": "tweede verdieping"
+      }
+    },
+    {
+      "id": "Space_74227894",
+      "soort": {
+        "code": "OVR",
+        "naam": "Overige ruimtes"
+      },
+      "detailSoort": {
+        "code": "BER",
+        "naam": "Berging"
+      },
+      "naam": "Berging",
+      "inhoud": 1.81558,
+      "oppervlakte": 0.68255,
+      "verwarmd": false,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "02",
+        "omschrijving": "tweede verdieping"
+      }
+    },
+    {
+      "id": "Space_74227959",
+      "soort": {
+        "code": "VTK",
+        "naam": "Vertrek"
+      },
+      "detailSoort": {
+        "code": "SLA",
+        "naam": "Slaapkamer"
+      },
+      "naam": "Slaapkamer",
+      "inhoud": 28.7042,
+      "oppervlakte": 10.7911,
+      "verwarmd": true,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "02",
+        "omschrijving": "tweede verdieping"
+      }
+    },
+    {
+      "id": "Space_74235849",
+      "soort": {
+        "code": "VTK",
+        "naam": "Vertrek"
+      },
+      "detailSoort": {
+        "code": "BAD",
+        "naam": "Badruimte"
+      },
+      "naam": "Badruimte",
+      "inhoud": 13.494,
+      "oppervlakte": 4.82794,
+      "verwarmd": true,
+      "bouwkundigeElementen": [
+        {
+          "id": "Wastafel_74235854",
+          "id_bimmodel": "0RKQxtlv90RvJesGGu10Pr",
+          "naam": "Wastafel",
+          "soort": {
+            "code": "SAN",
+            "naam": "Sanitaire voorziening"
+          },
+          "detailSoort": {
+            "code": "WAS",
+            "naam": "Wastafel"
+          },
+          "extraAttributen": {
+            "ifcSoort": "IfcSanitaryTerminal"
+          }
+        },
+        {
+          "id": "Wastafel_120546271",
+          "id_bimmodel": "0RKQxtlv90RvJesGGu10Pq",
+          "naam": "Wastafel",
+          "soort": {
+            "code": "SAN",
+            "naam": "Sanitaire voorziening"
+          },
+          "detailSoort": {
+            "code": "WAS",
+            "naam": "Wastafel"
+          },
+          "extraAttributen": {
+            "ifcSoort": "IfcSanitaryTerminal"
+          }
+        },
+        {
+          "id": "Aanrecht_120546272",
+          "id_bimmodel": "0RKQxtlv90RvJesGGu10Pp",
+          "naam": "Aanrecht",
+          "soort": {
+            "code": "KEU",
+            "naam": "Keuken voorziening"
+          },
+          "detailSoort": {
+            "code": "AAN",
+            "naam": "Aanrecht"
+          },
+          "extraAttributen": {
+            "ifcSoort": "IfcFurniture"
+          }
+        }
+      ],
+      "bouwlaag": {
+        "nummer": "03",
+        "omschrijving": "derde verdieping"
+      }
+    },
+    {
+      "id": "Space_74235998",
+      "soort": {
+        "code": "BTR",
+        "naam": "Buitenruimte"
+      },
+      "detailSoort": {
+        "code": "TER",
+        "naam": "Terras"
+      },
+      "naam": "Terras",
+      "inhoud": 8.97171,
+      "oppervlakte": 3.20991,
+      "lengte": 1.01,
+      "breedte": 3.67,
+      "verwarmd": false,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "03",
+        "omschrijving": "derde verdieping"
+      }
+    },
+    {
+      "id": "Space_74236114",
+      "soort": {
+        "code": "OVR",
+        "naam": "Overige ruimtes"
+      },
+      "detailSoort": {
+        "code": "SCH",
+        "naam": "Schacht"
+      },
+      "naam": "Schacht",
+      "inhoud": 1.99232,
+      "oppervlakte": 0.712817,
+      "verwarmd": false,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "03",
+        "omschrijving": "derde verdieping"
+      }
+    },
+    {
+      "id": "Space_74236116",
+      "soort": {
+        "code": "OVR",
+        "naam": "Overige ruimtes"
+      },
+      "detailSoort": {
+        "code": "SCH",
+        "naam": "Schacht"
+      },
+      "naam": "Schacht",
+      "inhoud": 0.880425,
+      "oppervlakte": 0.315,
+      "verwarmd": false,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "03",
+        "omschrijving": "derde verdieping"
+      }
+    },
+    {
+      "id": "Space_74236118",
+      "soort": {
+        "code": "OVR",
+        "naam": "Overige ruimtes"
+      },
+      "detailSoort": {
+        "code": "SCH",
+        "naam": "Schacht"
+      },
+      "naam": "Schacht",
+      "inhoud": 1.99232,
+      "oppervlakte": 0.712817,
+      "verwarmd": false,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "03",
+        "omschrijving": "derde verdieping"
+      }
+    },
+    {
+      "id": "Space_74236196",
+      "soort": {
+        "code": "OVR",
+        "naam": "Overige ruimtes"
+      },
+      "detailSoort": {
+        "code": "HAL",
+        "naam": "Hal"
+      },
+      "naam": "Hal",
+      "inhoud": 13.9727,
+      "oppervlakte": 4.99916,
+      "verwarmd": true,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "03",
+        "omschrijving": "derde verdieping"
+      }
+    },
+    {
+      "id": "Space_74236230",
+      "soort": {
+        "code": "VTK",
+        "naam": "Vertrek"
+      },
+      "detailSoort": {
+        "code": "WOO",
+        "naam": "Woonkamer"
+      },
+      "naam": "Woonkamer",
+      "inhoud": 40.0421,
+      "oppervlakte": 14.3263,
+      "verwarmd": true,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "03",
+        "omschrijving": "derde verdieping"
+      }
+    },
+    {
+      "id": "Space_74236234",
+      "soort": {
+        "code": "VTK",
+        "naam": "Vertrek"
+      },
+      "detailSoort": {
+        "code": "SLA",
+        "naam": "Slaapkamer"
+      },
+      "naam": "Slaapkamer",
+      "inhoud": 25.9266,
+      "oppervlakte": 9.27605,
+      "verwarmd": true,
+      "bouwkundigeElementen": [],
+      "bouwlaag": {
+        "nummer": "03",
+        "omschrijving": "derde verdieping"
+      }
+    },
+    {
+      "id": "Space_74238526",
+      "soort": {
+        "code": "VTK",
+        "naam": "Vertrek"
+      },
+      "detailSoort": {
+        "code": "KEU",
+        "naam": "Keuken"
+      },
+      "naam": "Keuken",
+      "inhoud": 16.189,
+      "oppervlakte": 5.79214,
+      "verwarmd": true,
+      "bouwkundigeElementen": [
+        {
+          "id": "Douche_120546757",
+          "id_bimmodel": "2y8ddfDbb5f8tpBj7Tnoqx",
+          "naam": "Douche",
+          "soort": {
+            "code": "SAN",
+            "naam": "Sanitaire voorziening"
+          },
+          "detailSoort": {
+            "code": "DOU",
+            "naam": "Douche"
+          },
+          "extraAttributen": {
+            "ifcSoort": "IfcSanitaryTerminal"
+          }
+        }
+      ],
+      "bouwlaag": {
+        "nummer": "03",
+        "omschrijving": "derde verdieping"
+      }
+    }
+  ],
+  "bouwkundigeElementen": [
+    {
+      "id": "23109000031",
+      "id_bimmodel": null,
+      "naam": "Ketel",
+      "omschrijving": "Woning collectief ketelhuis",
+      "soort": {
+        "code": "VER",
+        "naam": "Verwarming"
+      },
+      "detailSoort": {
+        "code": "VTO",
+        "naam": "Verwarmingstoestellen"
+      },
+      "extraAttributen": {
+        "soortProductKetel": "Collectieve cv",
+        "soortKetel": "Collectief",
+        "merkKetel": "Collectief",
+        "ifcSoort": null
+      }
+    }
+  ]
+}

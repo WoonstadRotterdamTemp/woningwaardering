@@ -236,7 +236,7 @@
           "criterium": {
             "naam": "Lengte aanrecht",
             "meeteenheid": {
-              "code": "MLM",
+              "code": "MIL",
               "naam": "Millimeter"
             }
           },
@@ -297,6 +297,20 @@
         }
       },
       "punten": 0.0
+    },
+    {
+      "criteriumGroep": {
+        "stelsel": {
+          "code": "ZEL",
+          "naam": "Zelfstandige woonruimten"
+        },
+        "stelselgroep": {
+          "code": "BMZ",
+          "naam": "Beschermd monument"
+        }
+      },
+      "punten": 0.0,
+      "woningwaarderingen": []
     }
   ],
   "maximaleHuur": 677.36,

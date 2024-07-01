@@ -11,10 +11,10 @@
           "naam": "Oppervlakte van vertrekken"
         }
       },
-      "punten": 53.0,
+      "punten": 45.0,
       "woningwaarderingen": [
         {
-          "aantal": 11.65,
+          "aantal": 10.79,
           "criterium": {
             "naam": "Slaapkamer",
             "meeteenheid": {
@@ -24,7 +24,7 @@
           }
         },
         {
-          "aantal": 3.12,
+          "aantal": 4.83,
           "criterium": {
             "naam": "Badruimte",
             "meeteenheid": {
@@ -34,17 +34,7 @@
           }
         },
         {
-          "aantal": 6.37,
-          "criterium": {
-            "naam": "Keuken",
-            "meeteenheid": {
-              "code": "M2",
-              "naam": "Vierkante meter, m2"
-            }
-          }
-        },
-        {
-          "aantal": 23.1,
+          "aantal": 14.33,
           "criterium": {
             "naam": "Woonkamer",
             "meeteenheid": {
@@ -54,9 +44,19 @@
           }
         },
         {
-          "aantal": 8.35,
+          "aantal": 9.28,
           "criterium": {
             "naam": "Slaapkamer",
+            "meeteenheid": {
+              "code": "M2",
+              "naam": "Vierkante meter, m2"
+            }
+          }
+        },
+        {
+          "aantal": 5.79,
+          "criterium": {
+            "naam": "Keuken",
             "meeteenheid": {
               "code": "M2",
               "naam": "Vierkante meter, m2"
@@ -76,19 +76,8 @@
           "naam": "Oppervlakte van overige ruimten"
         }
       },
-      "punten": 3.75,
-      "woningwaarderingen": [
-        {
-          "aantal": 5.25,
-          "criterium": {
-            "naam": "Berging",
-            "meeteenheid": {
-              "code": "M2",
-              "naam": "Vierkante meter, m2"
-            }
-          }
-        }
-      ]
+      "punten": 0.0,
+      "woningwaarderingen": []
     },
     {
       "criteriumGroep": {
@@ -117,12 +106,6 @@
         },
         {
           "criterium": {
-            "naam": "Keuken"
-          },
-          "punten": 2.0
-        },
-        {
-          "criterium": {
             "naam": "Woonkamer"
           },
           "punten": 2.0
@@ -130,6 +113,12 @@
         {
           "criterium": {
             "naam": "Slaapkamer"
+          },
+          "punten": 2.0
+        },
+        {
+          "criterium": {
+            "naam": "Keuken"
           },
           "punten": 2.0
         }
@@ -146,13 +135,13 @@
           "naam": "Energieprestatie"
         }
       },
-      "punten": 0.0,
+      "punten": 32.0,
       "woningwaarderingen": [
         {
           "criterium": {
-            "naam": "Bouwjaar 1898"
+            "naam": "B (oud)"
           },
-          "punten": 0.0
+          "punten": 32.0
         }
       ]
     },
@@ -167,8 +156,30 @@
           "naam": "Sanitair"
         }
       },
-      "punten": 0.0,
-      "woningwaarderingen": []
+      "punten": 9.0,
+      "woningwaarderingen": [
+        {
+          "aantal": 1.0,
+          "criterium": {
+            "naam": "Closetcombinatie"
+          },
+          "punten": 3.0
+        },
+        {
+          "aantal": 2.0,
+          "criterium": {
+            "naam": "Wastafel"
+          },
+          "punten": 2.0
+        },
+        {
+          "aantal": 1.0,
+          "criterium": {
+            "naam": "Douche"
+          },
+          "punten": 4.0
+        }
+      ]
     },
     {
       "criteriumGroep": {
@@ -209,19 +220,19 @@
           "naam": "Punten voor de WOZ-waarde"
         }
       },
-      "punten": 25.0,
+      "punten": 40.0,
       "woningwaarderingen": [
         {
           "criterium": {
             "naam": "Onderdeel I"
           },
-          "punten": 12.02
+          "punten": 16.75
         },
         {
           "criterium": {
             "naam": "Onderdeel II"
           },
-          "punten": 13.24
+          "punten": 23.71
         }
       ]
     },
@@ -249,15 +260,22 @@
           "naam": "Beschermd monument"
         }
       },
-      "punten": 0.0,
-      "woningwaarderingen": []
+      "punten": 50.0,
+      "woningwaarderingen": [
+        {
+          "criterium": {
+            "naam": "Rijksmonument"
+          },
+          "punten": 50.0
+        }
+      ]
     }
   ],
-  "maximaleHuur": 532.92,
-  "punten": 92.0,
+  "maximaleHuur": 1123.13,
+  "punten": 186.0,
   "stelsel": {
     "code": "ZEL",
     "naam": "Zelfstandige woonruimten"
   },
-  "maximaleHuurInclusiefOpslag": 532.92
+  "maximaleHuurInclusiefOpslag": 1123.13
 }

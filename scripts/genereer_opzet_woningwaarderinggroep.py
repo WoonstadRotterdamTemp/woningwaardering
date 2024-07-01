@@ -2,6 +2,7 @@ from datetime import date
 from pathlib import Path
 import string
 import inquirer  # noqa
+import locale
 from jinja2 import Environment, PackageLoader, select_autoescape
 from loguru import logger
 
@@ -14,6 +15,9 @@ from woningwaardering.vera.referentiedata import (
     Woningwaarderingstelsel,
     Woningwaarderingstelselgroep,
 )
+
+
+locale.setlocale(locale.LC_ALL, "nl_NL")
 
 environment = Environment(
     loader=PackageLoader("woningwaardering"),
@@ -117,7 +121,9 @@ if check_write(stelselgroep_file_path):
     stelselgroep_folder.mkdir(parents=True, exist_ok=True)
     stelselgroep_file_path.write_text(stelselgroep_result)
 
-stelselgroepversie_module = f"{stelselgroep}_{begindatum.year}"
+stelselgroepversie_module = (
+    f"{stelselgroep}_{begindatum.strftime('%b').lower()}_{begindatum.year}"
+)
 
 stelselgroepversie_file_path = stelselgroep_folder / f"{stelselgroepversie_module}.py"
 
@@ -126,7 +132,7 @@ if check_write(stelselgroepversie_file_path):
         "stelsels/stelsel/stelselgroep/stelselgroepversie.py.j2"
     )
     stelselgroepversie_result = stelselgroepversie_template.render(
-        className=f"{stelselgroep_class_naam}{begindatum.year}",
+        className=f"{stelselgroep_class_naam}{begindatum.strftime('%b').capitalize()}{begindatum.year}",
         stelsel=woningwaarderingstelsel,
         stelselgroep=woningwaarderingstelselgroep,
     )
@@ -153,7 +159,7 @@ if stelselgroepconfig is None:
     )
     stelselconfig.stelselgroepen[stelselgroep] = stelselgroepconfig
 
-stelselgroepversie_class_naam = f"{stelselgroep_class_naam}{begindatum.year}"
+stelselgroepversie_class_naam = f"{stelselgroep_class_naam}{begindatum.strftime('%b').capitalize()}{begindatum.year}"
 
 stelselgroepconfig.versies = stelselgroepconfig.versies or []
 

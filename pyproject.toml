@@ -28,7 +28,8 @@ dependencies = [
     "types-pyyaml==6.*",
     "PyYAML==6.*",
     "prettytable==3.*",
-    "pandas==2.*"
+    "pandas==2.*",
+    "rdflib==7.*"
 ]
 
 [project.urls]

@@ -1,0 +1,25 @@
+{
+  "groepen": [
+    {
+      "criteriumGroep": {
+        "stelsel": {
+          "code": "ZEL",
+          "naam": "Zelfstandige woonruimten"
+        },
+        "stelselgroep": {
+          "code": "BMZ",
+          "naam": "Beschermd monument"
+        }
+      },
+      "punten": 50.0,
+      "woningwaarderingen": [
+        {
+          "criterium": {
+            "naam": "Rijksmonument"
+          },
+          "punten": 50.0
+        }
+      ]
+    }
+  ]
+}

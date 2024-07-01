@@ -15,7 +15,7 @@ from woningwaardering.vera.referentiedata import (
         (
             date(2024, 1, 1),
             Woningwaarderingstelsel.zelfstandige_woonruimten,
-            9,
+            10,
         )
     ],
 )

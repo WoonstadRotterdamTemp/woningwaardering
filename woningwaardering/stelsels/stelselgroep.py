@@ -66,7 +66,7 @@ class _StelselgroepABC(ABC):
         ]
 
         if not geldige_stelselgroep_versie_configs:
-            raise ValueError(
+            raise NotImplementedError(
                 f"geen geldige stelselgroep configuratie gevonden voor stelsel {stelsel} met peildatum {peildatum}"
             )
 

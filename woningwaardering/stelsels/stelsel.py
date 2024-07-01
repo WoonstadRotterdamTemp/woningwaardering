@@ -187,6 +187,11 @@ class Stelsel:
                 peildatum=peildatum,
             )
             for _, stelgroep_config in config.stelselgroepen.items()
+            if is_geldig(
+                stelgroep_config.begindatum,
+                stelgroep_config.einddatum,
+                peildatum,
+            )
         ]
 
         if not geldige_stelselgroepen:
